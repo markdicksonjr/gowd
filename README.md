@@ -76,7 +76,7 @@ func main() {
 	}
 	p := body.AddElement(gowd.NewElement("p"))
 	em := gowd.NewElementMap()
-	p.AddHtml(`<select id="select1">
+	p.AddHTML(`<select id="select1">
 		<option value="" disabled="disabled" selected="selected">Please select a name</option>
 		<option value="1">One</option>
 		<option value="2">Two</option>
